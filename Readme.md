@@ -13,7 +13,7 @@
 
 	p:\SandcastleShfbprojGenerator.exe 
 		-commandType deleteshfbproj 
-		-SourceProjectPath 'C:\Users\JamisLiao\\Sandcastle_Test'
+		-SourceProjectPath 'C:\Users\JamisLiao\Sandcastle_Test'
         
 ###**參數說明**###
 -CommandType : createshfbproj or deleteshfbproj
