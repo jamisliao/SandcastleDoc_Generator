@@ -1,4 +1,6 @@
 ###**使用方式**###
+產生Sandcastle shfbproj
+
 	p:\SandcastleDoc_Generator.exe 
         -commandType createshfbproj 
         -SourceProjectPath 'C:\Users\JamisLiao\Documents\Sandcastle_Test' 
@@ -6,6 +8,12 @@
         -ConfigType Debug 
         -DllFolderName Sandcastle_Test 
         -DllStartWith Sandcastle
+
+刪除Sandcastle shfbproj
+
+	p:\SandcastleShfbprojGenerator.exe 
+		-commandType deleteshfbproj 
+		-SourceProjectPath 'C:\Users\JamisLiao\\Sandcastle_Test'
         
 ###**參數說明**###
 -CommandType : createshfbproj or deleteshfbproj
